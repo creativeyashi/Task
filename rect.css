@@ -1,0 +1,48 @@
+div {
+    box-sizing: border-box;
+}
+
+#canvas {
+    width: 98vw;
+    height: 95vh;
+    border: solid black 1px;
+    position: relative;
+
+}
+
+.shape {
+    position: absolute;
+}
+
+.smallRec{
+    width: 6px;
+    height: 6px;
+    border: solid #000 1px;
+    position: absolute;
+    background: white;
+}
+
+.left{
+    left: 0px;
+}
+
+.right{
+    right: 0px;
+}
+
+.top{
+    top: 0px;
+}
+
+.bottom{
+    bottom: 0px;
+}
+
+.pallet{
+   height: 20px;
+   width: 28px 
+}
+#rectangle{
+
+    margin-left: 555px;
+}

@@ -1,0 +1,51 @@
+$primary-color: #000;
+$myColor:white;
+$mywidth: 6px;
+div {
+    box-sizing: border-box;
+}
+
+#canvas {
+    width: 98vw;
+    height: 95vh;
+    border: solid $primary-color 1px;
+    position: relative;
+
+}
+
+.shape {
+    position: absolute;
+}
+
+.smallRec{
+    width:$mywidth;
+    height: 6px;
+    border: solid $primary-color 1px;
+    position: absolute;
+    background: $myColor;
+}
+
+.left{
+    left: 0px;
+}
+
+.right{
+    right: 0px;
+}
+
+.top{
+    top: 0px;
+}
+
+.bottom{
+    bottom: 0px;
+}
+
+.pallet{
+   height: 20px;
+   width: 28px 
+}
+#rectangle{
+
+    margin-left: 555px;
+}
